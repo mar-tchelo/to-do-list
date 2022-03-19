@@ -1,0 +1,14 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "Projeto nodeJS MVC ThiCode",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "Mjs",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}

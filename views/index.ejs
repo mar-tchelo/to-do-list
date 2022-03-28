@@ -14,10 +14,7 @@
 
   <% if(message != "" ){ %>
 
-    <section class="message message-<%= type %>">
-      <P><%= message %></P>
-      <span id="close-message"><i class="bi bi-x"></i></span>
-    </section>
+    <%-include('./components/messages',{message:message, type: type}) %>
 
   <%}%>
 
